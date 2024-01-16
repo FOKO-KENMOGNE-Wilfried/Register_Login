@@ -95,7 +95,13 @@ const StyledSubmit = styled.input`
     margin-top: 20px;
     width: 100%;
     height: 40px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+    border: none;
     background-color: ${colors.primary};
+    &:hover{
+        background-color: #9db5e9;
+    }
 `
 const StyledTitle = styled.form`
     display: flex;
